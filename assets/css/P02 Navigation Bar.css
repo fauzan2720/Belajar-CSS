@@ -1,0 +1,40 @@
+* {
+    margin:0; 
+    padding:0;
+}
+
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+} 
+
+nav ul {
+    background:#37988e;
+    padding: 0 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    }
+
+nav ul li{
+    float: left;
+}
+
+nav ul li:hover{
+    background:#7af0e4;
+}
+
+nav ul li:hover a{
+    color:#000;
+}
+
+nav ul li a{
+    font-size: 16px;
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
